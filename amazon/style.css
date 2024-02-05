@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    
+    padding: 0px;
+    font-family: gotham;
+   
+    /* background-color: beige;
+    
+
+    
+    color: blue; */
+    
+}
+
+/* .container {
+    position: absolute;
+  }
+  
+  /* Bottom right text */
+  /* .text-block {
+    position: relative;
+    bottom: 100px;
+    right: 0.08px; */
+    /* background-color: black; */
+    
+    /* padding-left:40 px;
+    padding-right: 40px; */
+    /* text-align: center;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 90%; */
+    
+
+  #navbar{
+     position: sticky;
+     top: 0;
+     z-index: 10;
+     
+
+  }
+  .navbar{
+    padding: 0;
+
+  }
+  .hero{
+    width: 100%;
+    
+    min-height:100vh;
+    background: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.2)) ,url("pexels-lina-kivaka-3625711.jpg");
+    
+    color: white;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    /* transition: 0.5s; */
+  
+  
+    
+   }
+   .content{
+    margin-top: 10%;
+    max-width: 600px;
+   }
+   .content h1{
+    font-size: 70px;
+
+
+   }
+   .content p{
+    margin: 10px 0 30px;
+    margin-top: 10%;
+    animation-delay: 0.5s;
+   } 
+   .content .btn{
+    padding: 15px 80px;
+    font-size: 15px;
+    color: whitesmoke;
+   }
+   .animation{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.4s linear forwards;
+
+   }
+   @keyframes moveup{
+    100%{
+      opacity: 1;
+      transform: translateY(0px);
+
+
+    }
+
+   }
+   
+  #banner{
+   
+
+     color:black;
+     margin-top: 5%;
+     animation-duration: 3s;
+     
+     
+
+
+  }
+  .banner :hover{
+    width: 200px;
+  }
+  #services{
+    padding: 80px;
+    background-color: darksalmon;
+  }
+  .services-img{
+    /* width: 450px; */
+    margin-top: 50px;
+   background-color: antiquewhi;
+   text-align:center;
+   height: 250
+   
+   
+   +px;
+   
+  }
+  .services_header{
+    background: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)) ,url("./bg.jpg");
+
+    background-repeat: none;
+    animation: duration 10px;;
+    color: aliceblue;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: grey;
+  }
+  .services_header h2{
+    font-weight: bold;
+  }
+  .minus{
+    padding top: 80px;
+    display: flex;
+    margin: auto;
+  }
+
+  .container1{
+    padding: 80px;
+    margin-top: 30px;
+
+
+
+  }
+  
+  #testimonial{
+     margin: 100px 0;
+  }
+  .testimonial{
+    border-left: 4x solid #7b1798;
+    margin-top: 50px;
+    margin-bottom:50px;
+    margin: right 15px; ;
+
+
+  }
+  .nmoimg{
+    margin:right 150 px;
+  }
+  .testimonial img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin:0 10px;
+  }
+
+  .user-details {
+    display: inline-block;
+   font-size: 12px;    
+
+
+
+  }
+  #social-media{
+    background-color: lightcoral;
+    padding: 100px 0;
+
+  }
+  #social-media p{
+    font-size:36px;
+     font-weight: 600;
+     margin-bottom: 30px;
+
+    
+
+  }
+  .footer{
+    color: black;
+    margin-top: -13rem;
+    padding: 10%;
+    /* margin: 0.5%; */
+    justify-content: left;
+
+  }
+  .p1{
+    font-weight: bolder;
+    text-align: right;
+
+  }
+  .img1{
+    height: 250 px;
+    justify-content: left;
+    /* margin-top: 1.5%; */
+  }
+  .p1{
+    font-size: 30px;
+
+  }
+  .row{
+    justify-content: space-between;
+  }
+  
+  .testimonial p{
+font-size: 20px;
+  }
+  /* .footer1{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center; */
+
+  .joynest1{
+    justify-content: right;
+
+
+    /* position: relative; */
+    
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+  }
+  /* .joynest1{
+    margin-top: 150px;
+  } */
+  .copyright{
+    text-align: center;
+    color: whitesmoke;
+  }
+   
+  }
+  .col-md-4:hover{
+    scale: 103%;
+  }
+  .projects{
+width: 75%;
+margin: auto;
+
+  }
+  .projects h2{
+    text-align: center;
+  }
+  /* .carouselExample{
+    /* margin:10; */
+    margin-top: 30px;
+    padding:5%;
+  }
+  /  */
+  .msd1{
+    margin-top: 500px;
+  }
+  .carousel_item{
+    margin-top: 80px;
+  }
+  .KGR{
+    margin-top: 65px;
+    justify-content: space-between;
+  }
+  
